@@ -1,5 +1,34 @@
 * {
   background-color: #f2f1ed;
   font-family: Georgia, serif;
-  line-height: 1.5
+  line-height: 1.5;
+  list-style-type: none;
+}
+
+h1, h2 {
+  color: #5d8432;
+  text-transform: uppercase;
+  font-family: "Patua One";
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: #793284;
+  font-family: "Patua One";
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+a:hover {
+  color: #b42885;
+}
+
+img {
+  height: auto;
+  width: 100%;
 }
